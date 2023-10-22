@@ -1266,7 +1266,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 820989331}
         m_TargetAssemblyTypeName: CreateNewCube, Assembly-CSharp
-        m_MethodName: createCube
+        m_MethodName: CreateCube
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
