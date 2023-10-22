@@ -1,8 +1,13 @@
 using UnityEngine;
+using TMPro;
+
+
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance; 
+    public static GameManager instance;
+    public TMP_Text scoreText;
+    public Animator animator;
 
     private int score = 0;
 
@@ -21,6 +26,10 @@ public class GameManager : MonoBehaviour
     public void AddScore(int value)
     {
         score += value;
-        Debug.Log("Score: " + score); 
+        if (scoreText != null)
+        {
+            scoreText.text = "Score: " + score;
+        }
+
     }
 }

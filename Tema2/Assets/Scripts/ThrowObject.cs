@@ -4,6 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class ThrowObject : MonoBehaviour
 {
     private XRGrabInteractable grabInteractable;
+    public float throwForce = 10f;
 
     void Start()
     {
@@ -28,5 +29,5 @@ public class ThrowObject : MonoBehaviour
         }
     }
 
-    public float throwForce = 1000f; 
+    
 }
