@@ -11,16 +11,17 @@ public class ThrowObject : MonoBehaviour
         grabInteractable = GetComponent<XRGrabInteractable>();
         grabInteractable.onSelectEntered.AddListener(OnGrab);
         grabInteractable.onSelectExited.AddListener(OnRelease);
+        grabInteractable.onHoverEnter.AddListener(OnHoverEnter);
     }
 
     void OnGrab(XRBaseInteractor interactor)
     {
-
+        Debug.Log("Grabbed");
     }
 
     void OnRelease(XRBaseInteractor interactor)
     {
-
+        Debug.Log("Released");
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null)
         {
@@ -29,5 +30,13 @@ public class ThrowObject : MonoBehaviour
         }
     }
 
-    
+    void OnHoverEnter(XRBaseInteractor interactor)
+    {
+        Debug.Log("Hovering over object: " + gameObject.name);
+    }
+
+
+
+
+
 }
