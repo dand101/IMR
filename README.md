@@ -14,6 +14,6 @@ https://youtu.be/RMyQaVJYWYE
 ## Echipa Tema 3
 Cohman Teodora B5
 Dodun Dan B5
-
+Textura mainii e facuta manual in spiritul Halloween ului
 ###video tema 3
 https://youtu.be/efR6D4XC1KI
