@@ -7,7 +7,6 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public TMP_Text scoreText;
-    public Animator animator;
 
     private int score = 0;
 

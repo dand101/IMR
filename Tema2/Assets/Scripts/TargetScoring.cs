@@ -28,6 +28,7 @@ public class TargetScoring : MonoBehaviour
                 targetAnimator.SetTrigger("IsHit");
             }
 
+
             Vector3 particleSpawnPosition = new Vector3(transform.position.x, transform.position.y + 6f, transform.position.z);
             GameObject explosion = Instantiate(explosionFirePrefab, particleSpawnPosition, Quaternion.identity);
 
