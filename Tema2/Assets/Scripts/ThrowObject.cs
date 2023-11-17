@@ -13,8 +13,8 @@ public class ThrowObject : MonoBehaviour
         grabInteractable = GetComponent<XRGrabInteractable>();
         grabInteractable.onSelectEntered.AddListener(OnGrab);
         grabInteractable.onSelectExited.AddListener(OnRelease);
-        grabInteractable.onHoverEnter.AddListener(OnHoverEnter);
-        grabInteractable.onHoverExit.AddListener(OnHoverExit);
+        grabInteractable.onHoverEntered.AddListener(OnHoverEnter);
+        grabInteractable.onHoverExited.AddListener(OnHoverExit);
 
         GameObject gameObject = GameObject.Find("RightHand");
         GameObject gameObject2 = GameObject.Find("LeftHand");
