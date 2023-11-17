@@ -4422,7 +4422,7 @@ GameObject:
   - component: {fileID: 902342718}
   m_Layer: 0
   m_Name: Left Controller
-  m_TagString: Untagged
+  m_TagString: LeftCont
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9100,6 +9100,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3947cd5d6e6f200498f5aebaaaa5a636, type: 3}
       propertyPath: m_Name
       value: RightHand
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3947cd5d6e6f200498f5aebaaaa5a636, type: 3}
+      propertyPath: m_TagString
+      value: RightCont
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
